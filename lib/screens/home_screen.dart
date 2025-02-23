@@ -93,10 +93,10 @@ class _HomeScreenState extends State<HomeScreen> {
             Center(
               child: ElevatedButton.icon(
                 onPressed: addCourseField,
-                icon: Icon(Icons.add_circle_outline, size: 28, color: Colors.white),
+                icon: Icon(Icons.add_circle_outline, size: 28, color: const Color.fromARGB(255, 255, 255, 255)),
                 label: Text(
                   'Add Another Course',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: const Color.fromARGB(255, 255, 255, 255)),
                 ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple,
